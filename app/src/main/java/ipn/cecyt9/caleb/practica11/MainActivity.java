@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         TextView texto = (TextView) findViewById(R.id.textView);
         Animation animacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
         texto.startAnimation(animacion);
